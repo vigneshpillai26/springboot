@@ -18,7 +18,7 @@
     <description>Spring Boot Tutorial - Adding Bootstrap and JQuery to Web Application</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>
@@ -65,6 +65,7 @@
     </dependencies>
 
     <build>
+        <finalName>spring-boot-web</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
